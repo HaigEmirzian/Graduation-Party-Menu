@@ -6,6 +6,7 @@
 - Coke
 - Sprite
 - Fanta
+- Water
 
 ## Food 🍔
 - 
