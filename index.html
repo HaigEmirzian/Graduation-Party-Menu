@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
-  <meta name="theme-color" content="#0f4c81"/>
-  <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-  <title>Graduation Party Menu</title>  <link rel="stylesheet" href="styles/modern-styles.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta name="theme-color" content="#0f4c81" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Graduation Party Menu</title>
+  <link rel="stylesheet" href="styles/modern-styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <script>
     // Set animation delays for items
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const items = document.querySelectorAll('.item');
       items.forEach((item, index) => {
         item.style.setProperty('--item-index', index);
@@ -17,12 +20,15 @@
     });
   </script>
 </head>
-<body>  <header>
+
+<body>
+  <header>
     <div class="header-content">
       <h1><i class="fas fa-graduation-cap"></i> Graduation Party Menu <i class="fas fa-glass-cheers"></i></h1>
     </div>
   </header>
-  <main>    <section class="section" id="drinks">
+  <main>
+    <section class="section" id="drinks">
       <h2>Drinks</h2>
       <div class="items">
         <div class="item">
@@ -38,16 +44,23 @@
           </div>
         </div>
         <div class="item">
-          <img src="images/coke.jpg" alt="Coke" />
+          <img src="images/diet-coke.jpg" alt="Coke" />
           <div class="info">
-            <h3>Coke</h3>
+            <h3>Diet Coke</h3>
           </div>
         </div>
         <div class="item">
-          <img src="images/sprite.jpg" alt="Sprite" />
+          <img src="images/diet-sprite.jpg" alt="Sprite" />
           <div class="info">
-            <h3>Sprite</h3>
-          </div>        </div>
+            <h3>Sprite Zero Sugar</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/diet-dr-pepper.jpg" alt="Diet Dr Pepper" />
+          <div class="info">
+            <h3>Diet Dr Pepper</h3>
+          </div>
+        </div>
         <div class="item">
           <img src="images/fanta.jpg" alt="Fanta" />
           <div class="info">
@@ -57,11 +70,12 @@
         <div class="item">
           <img src="images/water.jpg" alt="Water" />
           <div class="info">
-            <h3>Water</h3>          </div>
+            <h3>Water</h3>
+          </div>
         </div>
       </div>
     </section>
-    
+
     <section class="section" id="food">
       <h2>Food</h2>
       <h3 class="section-subtitle">Chipotle Bar - Build Your Own Bowl</h3>
@@ -83,7 +97,8 @@
           <div class="info">
             <h3>White Rice</h3>
           </div>
-        </div>        <div class="item">
+        </div>
+        <div class="item">
           <img src="images/pinto-beans.png" alt="Pinto Beans" />
           <div class="info">
             <h3>Pinto Beans</h3>
@@ -130,13 +145,27 @@
           <div class="info">
             <h3>Flour Tortillas</h3>
           </div>
-        </div>      </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="desserts">
+      <h2>Desserts</h2>
+      <div class="items">
+        <div class="item">
+          <img src="images/brownie.jpg" alt="Brownies" />
+          <div class="info">
+            <h3>Brownies</h3>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-    <footer>
+  <footer>
     <div class="footer-content">
       <p>&copy; 2025 Graduation Party Menu</p>
     </div>
   </footer>
 </body>
+
 </html>
